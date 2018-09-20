@@ -6,7 +6,7 @@ def client():
     function to define the client behaviour.
     '''
     client_socket = socket.socket() # creating the socket object.
-    client_socket.connect((socket.gethostname(), 5000)) # connecting to the socket object.
+    client_socket.connect((socket.gethostname(), 9500)) # connecting to the socket object.
     client_str = "Enter Input : "
     message = raw_input(client_str) # Take the input from the user. 
 

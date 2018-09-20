@@ -5,7 +5,7 @@ def server():
     function to define the server behaviour.
     '''
     server_socket = socket.socket() # creating the socket object.
-    server_socket.bind((socket.gethostname(), 5000)) # bind to the socket object on port 5000 .
+    server_socket.bind((socket.gethostname(), 9500)) # bind to the socket object on port 5000 .
 
     server_socket.listen(1) # list on the socket.
     connection, address = server_socket.accept() # accept the client connection
